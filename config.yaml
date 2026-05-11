@@ -1,0 +1,5 @@
+thresholds:
+  max_hallucination_rate: 0.05    # block merge if hallucination > 5%
+  min_relevancy_score: 0.80       # block if relevancy drops below 80%
+  min_faithfulness_score: 0.75    # block if faithfulness drops below 75%
+  max_p95_latency_ms: 5000        # block if p95 latency > 5 seconds
