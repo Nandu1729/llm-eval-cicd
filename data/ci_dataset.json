@@ -1,0 +1,7 @@
+[
+  {"id": "q001", "category": "programming", "question": "What is Python?", "expected_answer": "Python is a high-level, interpreted, general-purpose programming language known for its simple syntax and readability."},
+  {"id": "q002", "category": "ai", "question": "What is a large language model (LLM)?", "expected_answer": "A large language model is a deep learning model trained on massive amounts of text data to understand and generate human language."},
+  {"id": "q003", "category": "devops", "question": "What is CI/CD?", "expected_answer": "CI/CD stands for Continuous Integration and Continuous Deployment. It is a software development practice where code changes are automatically built, tested, and deployed."},
+  {"id": "q004", "category": "databases", "question": "What is SQL?", "expected_answer": "SQL (Structured Query Language) is a standard language used to manage and query relational databases, supporting operations like SELECT, INSERT, UPDATE, and DELETE."},
+  {"id": "q005", "category": "web", "question": "What is HTTP?", "expected_answer": "HTTP (HyperText Transfer Protocol) is the foundation of data communication on the web, defining how requests and responses are formatted between clients and servers."}
+]

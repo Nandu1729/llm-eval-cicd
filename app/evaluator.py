@@ -1,3 +1,4 @@
+import os
 from app.dataset import load_golden_dataset
 from app.llm_call import call_llm
 from app.metrics import judge_all
@@ -5,7 +6,10 @@ from app.metrics import judge_all
 
 def run_evaluation(dataset=None):
     if dataset is None:
-        dataset = load_golden_dataset()
+        if os.getenv("CI_MODE") == "true":
+            dataset = load_golden_dataset("data/ci_dataset.json")
+        else:
+            dataset = load_golden_dataset()
 
     results = []
     total = len(dataset)
